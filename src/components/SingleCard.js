@@ -4,6 +4,8 @@ import "./SingleCard.css";
 export default function SingleCard({ card, handleChoice }) {
   const handleClick = () => {
     handleChoice(card);
+
+    console.log("added for test pupose for Qa test Branch");
   };
 
   return (
